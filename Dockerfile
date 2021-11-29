@@ -8,7 +8,7 @@ RUN git clone https://github.com/baekkwanghyoun/jsontg_pragmatic.git
 #RUN git clone https://github.com/noeul1114/pragmatic.git
 
 WORKDIR /home/pragmatic/
-
+RUN python3 -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 RUN pip install gunicorn
