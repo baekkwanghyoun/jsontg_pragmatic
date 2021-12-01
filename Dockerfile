@@ -2,7 +2,7 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo "testing12345111"
+RUN echo "testing1"
 
 RUN git clone https://github.com/baekkwanghyoun/jsontg_pragmatic.git
 #RUN git clone https://github.com/noeul1114/pragmatic.git
