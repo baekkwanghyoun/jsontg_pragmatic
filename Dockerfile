@@ -2,12 +2,12 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo "testing1"
+RUN echo "testing12"
 
 RUN git clone https://github.com/baekkwanghyoun/jsontg_pragmatic.git
 #RUN git clone https://github.com/noeul1114/pragmatic.git
 
-WORKDIR /home/pragmatic/
+WORKDIR /home/jsontg_pragmatic/
 RUN python3 -m pip install --upgrade pip
 RUN pip freeze > requirements.txt
 RUN pip install -r requirements.txt
